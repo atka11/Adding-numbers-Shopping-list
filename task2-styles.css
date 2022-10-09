@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: seagreen;
+    font-family: "Dancing Script";
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.shopping-list {
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+.shopping-list h1 {
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.shopping-list #clear {
+    font-family: sans-serif;
+    background-color: rgb(197, 225, 209);
+    font-size: 1.2rem;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.shopping-list #userInput {
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    padding: 0 5px;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+#allItems h2 {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
